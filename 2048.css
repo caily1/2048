@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+header h1{
+	font-size:60px;
+	font-family:Arial;
+	text-align:center;
+}
+header a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	width:100px;
+	background:rgb(143,122,102);
+	text-align:center;
+	margin:0 auto;
+	padding:10px;
+	border-radius:12px;
+	font-family:Arial;
+}
+header p{
+	text-align:center;
+	font-size:25px;
+	font-family:Arial;
+	margin-top:5px;
+}
+#grid-container{
+	width:460px;
+	height:460px;
+	padding:20px;
+	background: rgb(187,173,160);
+	margin:0 auto;
+	border-radius:12px;
+	margin-top:5px;
+	position:relative;
+}
+.grid-cell{
+	width:100px;
+	height:100px;
+	background: rgb(204,192,179);
+	position:absolute;
+	border-radius:12px;
+}
+.number-cell{
+	width:100px;
+	height:100px;
+	background: rgb(204,192,179);
+	position:absolute;
+	border-radius:12px;
+	text-align:center;
+	font-size:40px;
+	line-height:100px;
+	font-weight:700;
+}
+#gameover {
+    width: 500px;
+	height:500px;
+	line-height:100px;
+    position: absolute;
+	top:147px;
+	left:50%;
+	border-radius:12px;
+	transform:translateX(-50%);
+    z-index:9001;
+	color:#fff;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+	font-family: Arial;
+}
+#gameover h4{   
+    font-size: 40px;
+	margin-top:100px;
+}
+#gameover p{
+	height:40px;
+	line-height:40px;
+	font-size:30px;
+	font-weight:bold;
+}
+#gameover a{
+	margin:0 auto;
+	padding:10px 20px;
+	border-radius:12px;
+	line-height:100px;
+	width:100px;
+	height:25px;
+	background:#8F7A66;
+	font-family: Arial;
+	color:#fff;
+	text-decoration:none;
+	font-size:25px;
+}
